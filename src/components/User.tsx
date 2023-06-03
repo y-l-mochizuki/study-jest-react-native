@@ -1,9 +1,8 @@
 import {View, Text} from 'react-native';
 import React, {useEffect, useState} from 'react';
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const fetchUserData = async (id: string) => {
-  console.log(id);
-
   return {id: '1', name: 'John Doe'};
 };
 
